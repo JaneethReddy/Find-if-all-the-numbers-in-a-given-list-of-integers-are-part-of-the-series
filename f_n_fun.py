@@ -14,8 +14,9 @@ def seq_of_num(maxi):
         if li[-1] > maxi:
             break
     return li
-seq = seq_of_num(max(li))
+
 def is_part_of_series(lst):
+    seq = seq_of_num(max(li))
     in_list = []
     for i in li:
         if i in seq:
