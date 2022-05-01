@@ -16,9 +16,9 @@ def seq_of_num(maxi):
     return li
 
 def is_part_of_series(lst):
-    seq = seq_of_num(max(li))
+    seq = seq_of_num(max(lst))
     in_list = []
-    for i in li:
+    for i in lst:
         if i in seq:
             in_list.append(i)
     return in_list
